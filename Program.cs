@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+// explicit  casting
+
+using System;
+
+
+double price = 99.99;
+
+int product = (int)price;
+
+Console.WriteLine(product);
