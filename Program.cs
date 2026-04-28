@@ -21,6 +21,21 @@ Console.WriteLine(result);
 
 
 
+// Default Parameter.
+
+
+static void MyMethod(string country = "London")
+{
+    Console.WriteLine(country +  "this is the  Most visited Country");
+}
+
+    MyMethod("India");
+    MyMethod("USA");
+    MyMethod();
+    MyMethod("Japan");
+
+
+
 
 
 
