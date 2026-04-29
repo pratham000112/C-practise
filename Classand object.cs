@@ -57,15 +57,40 @@ class Program
 
         Student s3 = new Student();
         s3.Name = "kritika Sethi";
-              s3.Age = 28;
+        s3.Age = 28;
 
         s1.Display();
         s2.Display();
         s3.Display();
     }
 
+    // public car (string b)
+    //{
+    //br
+    //and = b;
 
-      
+    //}
+
+    // Constructor Overloading 
+
+    // public Employee (string n)
+    // {
+    //name = n;
+    // salary = 0;
 }
+
+  
+    // public Employee (string n, int s)
+    // {
+    //name = n;
+    // salary = s;
+          
+
+//class Product
+//{
+//   public string productName;;
+//    public int price;
+
+//}
 
 
